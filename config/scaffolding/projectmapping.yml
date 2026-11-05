@@ -19,3 +19,5 @@ runtimes:
     type: connection
   - name: SIQAJDBCAdapterTests.SIQAJDBCAdapterTests.connections.mysqlconnection
     type: connection
+  - name: MJAN05NovProject.project.mjan05nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount
+    type: connection
