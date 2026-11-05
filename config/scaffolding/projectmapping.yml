@@ -11,3 +11,5 @@ runtimes:
     type: connection
   - name: SIQACloudStreamsTests.SIQACloudStreamsTests:SalesforceCRM51
     type: connection
+  - name: MJAN05NovProject.project.mjan05nov.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAction
+    type: connection
