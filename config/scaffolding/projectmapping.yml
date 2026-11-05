@@ -5,3 +5,5 @@ runtimes:
   assets:
   - name: MJAN05NovProject.project.mjan05nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
     type: connection
+  - name: SIQACloudStreamsTests.SIQACloudStreamsTests:SalesforceCRM51
+    type: connection
