@@ -17,3 +17,5 @@ runtimes:
     type: connection
   - name: MJAN05NovProject.project.mjan05nov.pgp.connections:SIQATechnoPGPAccount
     type: connection
+  - name: SIQAJDBCAdapterTests.SIQAJDBCAdapterTests.connections.mysqlconnection
+    type: connection
