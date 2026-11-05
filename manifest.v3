@@ -18,17 +18,18 @@
     <value name="WmSalesforceProvider">12.0.0.0.25</value>
     <value name="WmSalesforceRESTProvider">12.0.0.0.26</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
+    <value name="WmSalesforceMarketingCloudProvider">12.0.0.0.24</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">42</value>
+  <value name="build">43</value>
   <null name="description"/>
   <value name="created_date">05-11-2026 07:42:56 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-11-05T08:20:20.906732279Z</value>
+  <value name="lastUpdated">2026-11-05T08:20:50.367486362Z</value>
   <value name="creator">null null</value>
 </Values>
