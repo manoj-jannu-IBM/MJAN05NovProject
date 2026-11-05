@@ -50,9 +50,11 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 - name: WmSalesforceMarketingCloudProvider
+  version: 12.0.0.0.24
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 - name: DADA_SSLJMS
+  version: "1.0"
   gitServerName: SIQAGitHubPublic
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -66,6 +68,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -80,6 +84,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:SIQADBOracleDBoperation
   packages:
   - name: MJAN05NovProject
@@ -88,6 +94,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -102,6 +110,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
   packages:
   - name: MJAN05NovProject
@@ -110,6 +120,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -124,6 +136,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAction
   packages:
   - name: MJAN05NovProject
@@ -132,6 +146,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -146,6 +162,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.integrations:DatabaseOracleDBTest
   packages:
   - name: MJAN05NovProject
@@ -154,6 +172,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -168,6 +188,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.integrations:ReferenceDataDoctypeTest
   packages:
   - name: MJAN05NovProject
@@ -176,6 +198,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -190,6 +214,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: DADA_RefDataDocTypeTests.refdata:PersonRefData
   packages:
   - name: DADA_RefDataDocTypeTests
@@ -202,6 +228,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -216,6 +244,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
   packages:
   - name: MJAN05NovProject
@@ -224,6 +254,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -238,6 +270,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.integrations:SFOAuthRest
   packages:
   - name: MJAN05NovProject
@@ -246,6 +280,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -260,6 +296,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAccount
   packages:
   - name: MJAN05NovProject
@@ -268,6 +306,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -282,6 +322,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: project.mjan05nov.integrations:SFOAuthRestInbuiltService
   packages:
   - name: MJAN05NovProject
@@ -290,6 +332,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -304,6 +348,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: wm.com_webmethods_cloudstreams_salesforce_rest_v60.operations:GetListofOrganizationLimits
   packages:
   - name: WmSalesforceRESTProvider
@@ -316,6 +362,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -330,6 +378,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: SIQACloudStreamsTests:connetorOperations
   packages:
   - name: SIQACloudStreamsTests
@@ -354,7 +404,7 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
-- serviceName: project.mjan05nov.integrations:TechnoHTTPTest
+- serviceName: project.mjan05nov.integrations:TPPSSLJMS
   packages:
   - name: MJAN05NovProject
     version: "1.0"
@@ -362,6 +412,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -376,6 +428,42 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
+- serviceName: DADA_SSLJMS.SIQApublisher:siqa_publisher
+  packages:
+  - name: DADA_SSLJMS
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1319
+- serviceName: project.mjan05nov.integrations:TechnoHTTPTest
+  packages:
+  - name: MJAN05NovProject
+    version: "1.0"
+  - name: DADA_ExtendedProperty
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
@@ -388,6 +476,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -402,6 +492,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: pub.security:signAndEncrypt
   packages:
   - name: WmPublic
@@ -414,6 +506,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -428,6 +522,8 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
 - serviceName: GB_1:readGlobalvariable
   packages:
   - name: DADA_GlobalVariable1
@@ -444,6 +540,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: WmSalesforceMarketingCloudProvider
+    version: 12.0.0.0.24
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -458,3 +556,5 @@ services:
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+  - name: DADA_SSLJMS
+    version: "1.0"
