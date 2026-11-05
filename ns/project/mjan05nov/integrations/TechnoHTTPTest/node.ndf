@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">rupjyoti.kaur@ibm.com</value>
-    <value name="createdDate">2026-11-05T08:20:06.118179242Z</value>
-    <value name="lastModifiedDate">2026-11-05T08:20:06.118179242Z</value>
+    <value name="lastModifiedBy">rupjyoti.kaur@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-05T09:32:55.151378380Z</value>
     <value name="displayName">TechnoHTTPTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -98,8 +97,22 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
+        <null name="mapSet"/>
+        <value name="nodePathForDebug">0</value>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">SIQATechnoHTTPAccount</value>
+          <value name="connectionType">http</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.mjan05nov.http.connections:SIQATechnoHTTPAccount</value>
+        <value name="connectionType">http</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
       </record>
     </record>
     <value name="modifiedBy">rupjyoti.kaur@ibm.com</value>
