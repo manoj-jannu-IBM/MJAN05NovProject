@@ -1,0 +1,7 @@
+version: "1.0"
+projectName: MJAN05NovProject
+runtimes:
+- runtimeAlias: MJANNov05
+  assets:
+  - name: MJAN05NovProject.project.mjan05nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
+    type: connection
