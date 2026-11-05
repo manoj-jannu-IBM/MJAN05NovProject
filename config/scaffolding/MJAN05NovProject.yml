@@ -41,6 +41,9 @@ packages:
   version: 12.0.0.0.25
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmSalesforceRESTProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.mjan05nov.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
   packages:
